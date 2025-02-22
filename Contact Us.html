@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | NOVA Motors</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            text-align: center;
+        }
+        .hero {
+            padding: 6rem 2rem;
+            background-color: #1e1e1e;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.25rem;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .highlight {
+            color: #0071e3;
+        }
+        .contact-form {
+            margin-top: 4rem;
+            display: grid;
+            gap: 1.5rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 1rem;
+            border-radius: 8px;
+            border: none;
+            background-color: #2c2c2e;
+            color: #e0e0e0;
+        }
+        input::placeholder, textarea::placeholder {
+            color: #8e8e93;
+        }
+        button {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 8px;
+            background-color: #0071e3;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005bb5;
+        }
+        footer {
+            margin-top: 4rem;
+            padding: 2rem 0;
+            font-size: 0.875rem;
+            color: #8e8e93;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="hero">
+            <h1>Let’s Connect</h1>
+            <p>At NOVA Motors, your journey matters. Whether you have questions, feedback, or just want to say hello, we're here to listen.</p>
+        </section>
+
+        <section class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </section>
+
+        <footer>
+            © 2025 NOVA Motors. Driving tomorrow, today.
+        </footer>
+    </div>
+</body>
+</html>
